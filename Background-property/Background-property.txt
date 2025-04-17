@@ -1,11 +1,65 @@
 Background
 ---------
 The CSS background property used to background effects for elements
-CSS have several following property 
 
-1)background-color//This property sets the background-color of element such as(h1,p,div,body,etc)
-2)background-image//This property sets the background-image
-3)background-repeat//This property sets repeated of background-image 
-4)background-attachment
-5)background-position
-6)background (shorthand property it means such as background: #ffffff url("img_tree.png") no-repeat right top;)
+CSS has several following property 
+-----------------------------------
+1)What is the use of the background property in CSS?
+Answer: It is a shorthand property to set background-color, image, position, repeat, and attachment in one line.
+
+2)How does the background-color property work?
+Answer: It sets the background color of an element.
+
+3)What are the possible values for background-repeat?
+Answer: repeat, no-repeat, repeat-x, repeat-y, space, round.
+
+4)How do you set a background image using CSS?
+Answer: background-image: url("image.jpg");
+
+5)What does the background-attachment property do?
+Answer: It sets whether the background image scrolls with the page (scroll) or stays fixed (fixed).
+
+6)What is the purpose of background-position?
+Answer: It sets the position of the background image.
+
+7)What is the default value of background-repeat?
+Answer: The default is repeat.
+
+8)How do you stop a background image from repeating?
+Answer: Use background-repeat: no-repeat;
+
+9)Can a background be applied to inline elements like <span>?
+Answer: Yes, but it works better if the element is inline-block or block.
+
+10)What is the shorthand background property used for?
+Answer: To set multiple background properties in one line.
+
+11)What is the correct order of values in the shorthand background?
+Answer: color image repeat attachment position
+
+12)What’s the difference between background-attachment: scroll and fixed?
+Answer: scroll moves with content; fixed stays in place.
+
+13)How do you center a background image?
+Answer: background-position: center center;
+
+14)Can you use both color and image as a background?
+Answer: Yes, using background: color url("image.jpg");
+
+15)How to apply multiple background images?
+Answer: background-image: url("img1.jpg"), url("img2.jpg");
+
+16)What happens if the background image is smaller than the element?
+Answer: It repeats according to the background-repeat value.
+
+17)What does background-size: cover do?
+Answer: It scales the image to cover the entire element, possibly cropping it.
+
+18)What does background-size: contain do?
+Answer: It scales the image to fit inside the element without cropping.
+
+19)What is the difference between background and background-image?
+Answer: background is shorthand; background-image only sets the image.
+
+20) How do you make a full-screen responsive background image?
+Answer:
