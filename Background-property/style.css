@@ -1,0 +1,27 @@
+/* This is background-color property used to change/set background */
+p
+{
+    background-color: aquamarine;
+    
+}
+
+.dv-1{
+    height: 300px;
+    width: 300px;
+    background-image: url('https://www.antixforum.com/wp-content/uploads/2023/03/upsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: 900px;;
+    color: white;
+    text-align: center;
+    
+}
+h1{
+    background-color: blueviolet;
+
+}
+div{
+    background-image: url('https://thesaurus.plus/img/synonyms/792/work_load.png');
+    
+}

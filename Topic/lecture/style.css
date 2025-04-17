@@ -1,0 +1,51 @@
+.Conatiner
+{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    
+    
+}
+.Containerpara
+{
+    margin-left: 10px;
+}
+.Conatinerul
+{
+    display: flex;
+    gap: 50px;
+
+   
+}
+li{
+    list-style: none;
+}
+.Conatinernav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+@media (max-width: 600px) {
+    .Conatiner {
+        flex-direction: column;  /* Stack items vertically */
+        flex-wrap: wrap;
+        text-align: center; /*Center the items*/
+    }
+    .Conatinerul
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    li
+    {
+        gap: 5px;
+    }
+    .Containerpara
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

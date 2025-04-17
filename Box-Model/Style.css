@@ -1,0 +1,12 @@
+p{
+    background-color: cyan;
+    text-align: center;
+}
+div{
+      
+      width: 300px;
+      border: 10px solid pink;
+      background-color: gray;
+      margin: auto;
+      padding: 50px;
+}

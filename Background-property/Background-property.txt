@@ -1,0 +1,11 @@
+Background
+---------
+The CSS background property used to background effects for elements
+CSS have several following property 
+
+1)background-color//This property sets the background-color of element such as(h1,p,div,body,etc)
+2)background-image//This property sets the background-image
+3)background-repeat//This property sets repeated of background-image 
+4)background-attachment
+5)background-position
+6)background (shorthand property it means such as background: #ffffff url("img_tree.png") no-repeat right top;)

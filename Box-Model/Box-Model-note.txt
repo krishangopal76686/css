@@ -1,0 +1,50 @@
+Box-Model
+---------
+In CSS box-model is Box and that wrap Every html element.
+It is consists of: margins,borders,padding,content 
+
+
+1. What is the CSS Box Model?
+The CSS Box Model is a fundamental concept that describes how every HTML element is a rectangular box made up of four parts:
+Content → Padding → Border → Margin.
+It defines how these parts affect the element’s size and spacing on a web page.
+
+2. What are the components of the CSS Box Model?
+
+Content: The actual content (text, image, etc.) inside the element.
+
+Padding: Space between the content and the border.
+
+Border: Surrounds the padding and content.
+
+Margin: Space outside the border, separating the element from others.
+
+3. What is the difference between margin and padding?
+
+Margin: Space outside the element’s border — separates it from other elements.
+
+Padding: Space inside the element’s border — pushes the content inward.
+
+4. What does box-sizing: border-box do?
+With box-sizing: border-box, the total width and height includes padding and border. This makes layout calculations easier because the declared width doesn't expand with padding/border.
+
+5. What is the default value of box-sizing in CSS?
+The default value is content-box, which means:
+Total width = content width + padding + border
+This can sometimes cause layout issues if not accounted for.
+
+6. What is margin collapsing in CSS?
+When vertical margins of two elements meet, the larger of the two margins is used — not the sum. This is known as margin collapsing and applies only to vertical margins.
+
+7. How do padding and border affect the size of a box?
+In content-box model, they increase the element's total size.
+In border-box, they’re included in the total size.
+
+8. How can you center a block element horizontally using the Box Model?
+By applying margin: 0 auto; and setting a width on the element, it will be horizontally centered.
+
+9. How can you inspect the Box Model in the browser?
+Use Developer Tools (F12 or right-click → Inspect). Most browsers show a box diagram that breaks down content, padding, border, and margin visually.
+
+10. Why is box-sizing: border-box often used in modern CSS?
+It simplifies layout management by including padding and border in the element’s total width/height, making elements easier to size consistently, especially in responsive design.
