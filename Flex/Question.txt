@@ -1,0 +1,60 @@
+1) What is Flexbox in CSS?
+Flexbox is a layout model that allows responsive alignment and distribution of space among items in a container.
+
+2) How do you make an element a flex container?
+By applying display: flex; or display: inline-flex; to it.
+
+3) What is the difference between flex and inline-flex?
+flex creates a block-level flex container, while inline-flex creates an inline-level one.
+
+4) What does flex-direction do?
+It defines the direction of the main axis in the flex container.
+
+5) What does justify-content control?
+It aligns items along the main axis.
+
+6) What does align-items control?
+It aligns items along the cross axis.
+
+7) What is align-self used for?
+It overrides align-items for a specific flex item.
+
+8) What does flex-wrap do?
+It allows items to wrap onto multiple lines if needed.
+
+9) What is the flex shorthand property?
+It sets flex-grow, flex-shrink, and flex-basis in one declaration.
+
+10) What is the default value of the flex property?
+The default is 0 1 auto.
+
+11) How can you reverse the order of items in a flex container?
+By using row-reverse or column-reverse with flex-direction.
+
+12) What does align-content do?
+It aligns multiple lines of flex items along the cross axis.
+
+13) What does order do in Flexbox?
+It controls the visual order of flex items regardless of HTML order.
+
+14) Can you center content both vertically and horizontally with Flexbox?
+Yes, using justify-content and align-items.
+
+15) How do you make all items take equal width in a row?
+By setting an equal flex value on all items.
+
+16) What’s the difference between flex-basis and width?
+flex-basis sets the initial size before extra space is distributed; width is a fixed size.
+
+17) Can you nest flex containers?
+Yes, a flex item can also be a flex container.
+
+18) What happens if a flex item is too big?
+It can shrink based on its flex-shrink value unless restricted.
+
+19) How does gap work in Flexbox?
+It adds spacing between flex items.
+
+20) Does Flexbox work in all browsers?
+Yes, it's supported in all modern browsers, with some limitations in older versions.
+
